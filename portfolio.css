@@ -1,0 +1,176 @@
+*{
+    margin:0px;
+    font-family: arial;
+    border:border-box;
+}
+/*header*/
+.navbar{
+    height:60px;
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    width:800px;
+    color:white;
+    font-size: 30px;
+}
+.logo a{
+    color:yellow;
+}
+.list a{
+    color:white;
+    margin-left:20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*section*/
+
+.section{
+    background-color: rgb(112,172,228);
+    height:600px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    height:600px;
+    width:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myself h1{
+ font-size: 35px;
+ padding-top: 3px;
+}
+.myself h3{
+    font-size: 25px;
+    padding-top: 3px;
+}
+.myself h4{
+    font-size:20px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+button{
+    font-size: 20px;
+    color:rgb(55, 135, 211);
+   
+   
+}
+.pic{
+    height:450px;
+    width:500px;  
+    background-image: url("devimg6.png"); 
+    background-size: cover;
+}
+.border:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness: 2px;
+    font-size:20px;
+}
+.border1:hover{
+    transform:scale(1.2);
+    border:none;
+}
+/*main*/
+.aboutme{
+    background-color: rgb(112,172,228);
+    height:200px;
+    padding-top: 60px;
+}
+.aboutme p{
+font-weight:500;
+font-size:20px;
+text-align: center;
+padding-top: 5px;
+}
+.aboutme h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.skills{
+    padding-top: 50px;
+height:400px;
+background-color: rgb(112,172,228);
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.skill{
+    background-color: cornflowerblue;
+    height:300px;
+    width:300px;
+}
+.skill h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.skill li{
+padding-top: 10px;
+font-size: 18px;
+}
+.certificate{
+    height:300px;
+    width:500px;
+    background-color:cornflowerblue;
+}
+.certificate h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.certificate li{
+    padding-top: 10px;
+    font-size: 18px;
+ }
+ /*footer*/
+ .Contact{
+    height: 350px;
+    background-color: cornflowerblue;
+ }
+ .me{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+ }
+.icon{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 25px;
+ 
+}
+.icon1{
+    padding-left: 15px;
+}
+.placeholder{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.inform{
+height:200px;
+width: 300px;
+}
+.name{
+    height:30px;
+    width:250px;
+    margin-bottom: 10px;
+}
+.gmail{
+    height:30px;
+    width:250px;
+    margin-bottom: 10px;
+
+}
+.message{
+    height:70px;
+    width:250px;
+    margin-bottom: 10px;
+}
